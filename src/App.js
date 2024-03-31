@@ -7,6 +7,7 @@ function App() {
   const element= useRoutes(appRoutes)
   return (
     <div className="App">
+   Welcome to Landing Page
       <LandingPage/>
       {element}
     </div>
